@@ -15,7 +15,7 @@ install() {
 
 	local bin_install_path="$install_path/bin"
 
-	local program_name="steampipe"
+	local program_name="powerpipe"
 
 	local platform
 	platform=$(uname | tr '[:upper:]' '[:lower:]')

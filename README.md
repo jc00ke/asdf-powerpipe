@@ -1,11 +1,11 @@
-# asdf-steampipe
+# asdf-powerpipe
 
-[steampipe](https://github.com/turbot/steampipe) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
+[powerpipe](https://github.com/turbot/powerpipe) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
 ## Install
 
 ```
-asdf plugin-add steampipe https://github.com/carnei-ro/asdf-steampipe.git
+asdf plugin-add powerpipe https://github.com/jc00ke/asdf-powerpipe.git
 ```
 
 ## Use
