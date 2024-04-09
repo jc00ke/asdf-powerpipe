@@ -1,13 +1,9 @@
 name: Build
 on:
-  pull_request:
-    paths-ignore:
-      - "**.md"
   push:
-    paths-ignore:
-      - "**.md"
     branches:
       - main
+  pull_request:
 
 jobs:
   plugin_test:
