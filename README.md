@@ -10,4 +10,5 @@ asdf plugin-add powerpipe https://github.com/jc00ke/asdf-powerpipe.git
 
 ## Use
 
-Check out the [asdf](https://github.com/asdf-vm/asdf) readme for instructions.
+Check out the [asdf](https://github.com/asdf-vm/asdf) readme for instructions. The author uses this with
+[mise](https://mise.jdx.dev/).
