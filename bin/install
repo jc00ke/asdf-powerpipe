@@ -41,7 +41,7 @@ install() {
 	esac
 
 	local download_url
-	download_url="https://github.com/turbot/${program_name}/releases/download/v${version}/${program_name}_${platform}_${arch}.${extension}"
+	download_url="https://github.com/turbot/${program_name}/releases/download/v${version}/${program_name}.${platform}.${arch}.${extension}"
 
 	mkdir -p "${bin_install_path}"
 
