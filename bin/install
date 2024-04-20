@@ -28,17 +28,8 @@ install() {
 	*) arch="$(uname -m)" ;;
 	esac
 
-	local extension
-	case "${platform}" in
-	darwin) extension="zip" ;;
-	linux) extension="tar.gz" ;;
-	esac
-
-	local extract
-	case "${platform}" in
-	darwin) extract="unzip ${program_name}.${extension}" ;;
-	linux) extract="tar xzf ${program_name}.${extension}" ;;
-	esac
+	local extension="tar.gz"
+	local extract="tar xzf ${program_name}.${extension}"
 
 	local download_url
 	download_url="https://github.com/turbot/${program_name}/releases/download/v${version}/${program_name}.${platform}.${arch}.${extension}"
